@@ -1,0 +1,5 @@
+a = list(map(int,input().split()))
+total = sum(a)
+max_sum=total-min(a)
+min_sum = total-max(a)
+print(min_sum,max_sum)
